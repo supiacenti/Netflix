@@ -4,6 +4,7 @@
         <title>Netflix</title>
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="netflix.css">
+        <link rel="icon" type="image/jpg" href="imagens/icone.png"/>
     </head>
     <body>
         <div class="menu" id="menu">
@@ -15,9 +16,9 @@
                 <a class="m" href="paginas/bombando.html">Bombando</a>
                 <a class="m" href="paginas/minhalista.html">Minha Lista</a>
             </ul>
-            <div class="confi" id="conf">
-                <img class="t" src="imagens/triangle.png">
-                <img class="i" src="imagens/icon.jpg">
+            <div class="confi">
+                <img class="t" id="conf" src="imagens/triangle.png">
+                <img class="i" id="conf2" src="imagens/icon.jpg">
             </div>
             <img class="b" src="imagens/bell.png">
             <a class="inf" href="paginas/infantil.html">INFANTIL</a>
@@ -34,15 +35,18 @@
             <a href="">Centro de ajuda</a><br>
             <a href="">Sair da Netflix</a><br>
         </div>
-        <div class="destaque">
+        <div class="destaque" id="destaque">
+            <video id="video">
+                <source src="imagens/yt1s.com - Lilys Musical Taste  Modern Family.mp4" type="video/mp4">
+              </video>
             <div class="info">
-                <img class="l" src="">
-                <img class="titulo" src="">
+                <img class="l" src="imagens/serie1l.png">
+                <img class="titulo" src=""><br>
                 <button class="a">▶&nbsp;&nbsp;&nbsp;&nbsp;Assistir</button>
-                <button class="mi">Mais informações</button>
+                <button class="mi"><img class="mais" src="imagens/exclamation.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mais informações</button>
             </div>
         </div>
-
+        <div class="carrossel" id="carrossel"></div>
         <script src="js/jquery.min.js"></script>
         <script src="js/netflix.js"></script>
     </body>
