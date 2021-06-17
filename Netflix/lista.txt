@@ -1,0 +1,10 @@
+- html
+- seleção de mídias
+- ordenação de divs
+- css: interface página inicial
+- css: carrossel de filmes
+✔ css: animação troca de usuários/configurações 
+- css: filme destaque
+- js: carrossel
+- js: alteração de filmes/séries 
+imagem principal

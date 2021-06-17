@@ -1,0 +1,140 @@
+html{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   background-color: rgb(26, 26, 26);
+}
+.menu{
+    width: 100%;
+    height: 150px;
+    margin-left: -10px;
+    background: rgb(26,26,26);
+    background: linear-gradient(180deg, rgba(26,26,26,1) 0%, rgba(27,27,34,0.8883928571428571) 30%, rgba(0,212,255,0) 100%);
+    display: inline;
+    margin-top: 0px;
+    position: fixed;
+}
+.logo{
+    float: left;
+    width: 120px;
+    margin-left: 35px;
+}
+.menu ul{
+    float: left;
+    margin-top: 25px;
+}
+.m, .inf{
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 11pt;
+    color: white;
+}
+a:hover{
+    color: rgb(206, 206, 206);
+}
+.t, .i, .b, .s, .inf{
+    width: 25px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+.inf{
+    margin-top: 24px;
+    margin-right: 72px;
+}
+.i, .t{
+    margin-right: 10px;
+}
+.i{
+    width: 30px;
+    margin-top: 18px;
+}
+.t{
+    width: 12px;
+    margin-top: 27px;
+    margin-right: 50px;
+    animation-name: Animacao-girar2;
+    animation-duration: 0.3s;
+    animation-timing-function: linear;
+}
+.t:hover{
+    animation-name: Animacao-girar;
+    animation-duration: 0.3s;
+    animation-timing-function: linear;
+    transform: scaleY(-1);
+}
+@keyframes Animacao-girar {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(180deg);
+    }
+}
+@keyframes Animacao-girar2 {
+    0% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+.destaque{
+    width: 100vw;
+    margin-left: -10px;
+    height: 550px;
+    background-image: url('imagens/filme3.jpg');
+    background-size: cover;
+}
+.confi{
+    float: right;
+}
+.lista{
+    float: right;
+    margin-right: 30px;
+    margin-top: 70px;
+    width: 200px;
+    height: 330px;
+    background-color: rgb(26, 26, 26, 0.7);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(114, 114, 114);
+    display: block;
+    line-height: 30px;
+}
+.lista a{
+    display: inline;
+    margin-left: 10px;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 12pt;
+    color: white;
+    font-weight: bold;
+}
+.lista img{
+    width: 40px;
+}
+hr{
+    background-color:rgb(114, 114, 114);
+}
+.info{
+    position: absolute;
+    bottom: 100px;
+    left: 0px;
+}
+.a, .mi{
+    width: 250px;
+    height: 45px;
+    font-size: 15pt;
+    border-style: none;
+    
+    border-radius: 5px;
+}
+.a{
+    background-color: white;
+    color:rgb(26, 26, 26);
+    width: 200px;
+}
+.mi{
+    background-color: rgba(150, 150, 150, 0.836);
+    color:rgb(26, 26, 26);
+}
