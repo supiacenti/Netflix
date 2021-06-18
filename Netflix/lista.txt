@@ -9,5 +9,5 @@
 ✔ js: alteração de filme/série imagem principal;
 
 erros:
-- interação do menu de configurações e destaque (não funcionam ao mesmo tempo ainda);
+✔ interação do menu de configurações e destaque (não funcionam ao mesmo tempo ainda);
 - hover do menu de configurações, unir icon e seta;
